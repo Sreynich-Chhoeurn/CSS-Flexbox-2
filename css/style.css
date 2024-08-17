@@ -1,53 +1,50 @@
-div {
+body{
     background-color: pink;
-    padding: 10px;
-    margin: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
 }
 
 header {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 10px;
     background-color: rgb(150, 219, 219);
     text-align: center;
     justify-content: center;
     color: #fff;
     padding: 10px;
 }
-
-.nav {
+.container{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0;
+    justify-content: space-between;
+}
+main{
+    flex: 3;
+    background-color: rgb(235, 104, 115);
+    margin: 10px;
 }
 
 .aside {
-    background-color: rgb(63, 201, 187);
-    color: #fff;
-    height: 80vh;
-    width: 180px;
-    margin-left: 10px;
+    flex: 1;
+    background-color: rgb(36, 165, 165);
+    width: 100px;
+    margin: 10px;
     display: flex;
     justify-content: center;
-    text-align: center;
     align-items: center;
-    flex: 1.5;
-    padding: 10px;
 }
 
 .article {
     display: flex;
-    flex-direction: column;
-    background-color: palevioletred;
-    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   
+}
+.card{
+    height: 250px;
+    width: 100%;
+    margin: 10px;
+    display: flex;
     justify-content: center;
-    color: #fff;
-    width: 100px;
-    height: 50vh;
-    padding: 100px;
-    flex: 3;
+    align-items: end;
 }
 
 footer {
@@ -56,17 +53,19 @@ footer {
     justify-content: center;
     color: #fff;
     padding: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 10px;
 }
 
 .image {
     display: flex;
-    height: 100px;
-    width: 600%;
     justify-content: center;
-    text-align: center;
     align-items: center;
+    margin-left: 30px;
+    margin-right: 34px;
+    margin-bottom: 20px;
+    width: 26%;
+    height: 40vh;
+    background-color: rgb(198, 202, 201);
 }
 
 .main {
